@@ -1,0 +1,257 @@
+/*页面初始化*/
+body,div,p,ul,h2,h4{padding: 0;margin: 0;font-size: 14px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear{
+    clear: both;
+}
+/*页面初始化*/
+
+/*横幅广告banner*/
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .box{
+    width: 1200px;
+    height: 355px;
+    overflow: hidden;
+}
+.banner .box ul{
+    width: 4800px;
+    overflow: hidden;
+}
+.banner .box ul li{
+    float: left;
+    width: 1200px;
+    height: 355px;
+}
+.banner .boxnav{
+    position: absolute;
+    margin-left: 50%;
+    left: -37px;
+    bottom: 10px;
+}
+.banner .boxnav li{
+    float: left;
+    margin: 0 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.4);
+    text-indent: 10000px;
+    overflow: hidden;
+}
+.banner .boxnav .navOn{
+    width: 8px;
+    height: 8px;
+    background: rgba(0,0,0,0.1);
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+.banner .zuo,.you{
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    cursor: pointer;
+    display: none;
+}
+.banner .you{
+    right: auto;
+    left: 30px;
+}
+/*横幅广告banner*/
+
+/*主体main*/
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main .main1{
+    padding-top: 32px;
+    margin-bottom: 42px;
+}
+.main .main1 ul{
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+}
+.main .main1 ul li{
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+.main .main1 ul li img{
+    margin: 0 100px;
+}
+.main .main1 ul li a{
+    color: #999999;
+    font-size: 22px;
+}
+
+.main .main2{
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+.main .huiyuanjg{
+    width: 590px;
+    height: 104px;
+    padding-top: 252px;
+    float: left;
+}
+.main .huiyuanjg a{
+    display: block;
+    width: 358px;
+    height: 54px;
+    border: 1px solid white;
+    margin-left: 110px;
+    text-align: center;
+    line-height: 54px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.main .btn1{
+    background: url("../images1/huiyuanjiage_bg1.png") no-repeat;
+}
+.main .btn1 a{
+    background-color: #be3c1a;
+}
+.main .btn1 a:hover{
+    background-color: red;
+}
+.main .btn2{
+    background: url("../images1/huiyuanjiage_bg2.png") no-repeat;
+}
+.main .btn2 a{
+    background-color: #ff8f2d;
+}
+.main .btn2 a:hover{
+    background-color: yellowgreen;
+}
+.main .btn3{
+    background: url("../images1/huiyuanjiage_bg3.png") no-repeat;
+}
+.main .btn3 a{
+    background-color: #be3c1a;
+}
+.main .btn3 a:hover{
+    background-color: red;
+}
+.main .quanyi{
+    width: 590px;
+    height: 356px;
+    float: left;
+    background-color: #f8f8f8;
+}
+.main .quanyi .top{
+    width: 590px;
+    height: 46px;
+    overflow: hidden;
+    background-color: #ededed;
+}
+.main .quanyi .top p{
+    float: left;
+    color: #636363;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 15px;
+    line-height: 46px;
+}
+.main .quanyi .top a{
+    display: block;
+    float: right;
+    height: 46px;
+    line-height: 46px;
+    background: url("../images1/huiyuanjiage_bg4.png") no-repeat 0 10px;
+    padding: 0 30px 0 40px;
+    color: #393939;
+}
+.main .quanyi .top a:hover{
+    color: brown;
+}
+.main .quanyi .bottom{
+    width: 590px;
+    height: 288px;
+}
+.main .quanyi .bottom ul{
+    overflow: hidden;
+    width: 588px;
+    height: 280px;
+    padding: 1px 4px;
+}
+.main .quanyi .bottom ul li{
+    float: left;
+    padding: 16px 10px;
+    text-align: center;
+}
+.main .quanyi .bottom ul li img{
+    margin: 0 42px;
+}
+.main .quanyi .bottom ul li p{
+    color: #6b6b6b;
+    font-size: 12px;
+}
+
+.main .main3 .top{
+    width: 1200px;
+    height: 24px;
+    background: url("../images1/main3_bg.png") no-repeat;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+.main .main3 .top p{
+    font-weight: bold;
+    font-size: 20px;
+    color: #8e8e8e;
+}
+.main .main3 .bottom{
+    margin-bottom: 60px;
+}
+.main .main3 .bottom ul{
+    overflow: hidden;
+}
+.main .main3 .bottom ul li{
+    float: left;
+    margin-right: 6px;
+}
+.main .main3 .bottom ul li img{
+    width: 193px;
+    border: 1px solid #dfdedc;
+    opacity: 0.6;
+}
+.main .main3 .bottom ul li p{
+    margin-top: 10px;
+}
+.main .main3 .bottom ul li p a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #6f6f6f;
+}
+.main .main3 .bottom ul .xuanfu img{
+    border: 1px solid red;
+    opacity: 1;
+}
+.main .main3 .bottom ul .xuanfu p a{
+    color: red;
+}
+
+.main .main4{
+    padding-bottom: 45px;
+    overflow: hidden;
+}
+.main .box1 img{
+    width: 193px;
+    height: 180px;
+}
+.main .box1 .bottom{
+    margin-bottom: 88px;
+}
+/*主体main*/

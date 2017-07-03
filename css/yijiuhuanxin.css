@@ -1,0 +1,372 @@
+/*页面初始化*/
+body,div,p,ul,h2,h4{padding: 0;margin: 0;font-size: 14px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear{
+    clear: both;
+}
+/*页面初始化*/
+
+/*横幅广告banner*/
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .box{
+    width: 1200px;
+    height: 355px;
+    overflow: hidden;
+}
+.banner .box ul{
+    width: 2400px;
+    overflow: hidden;
+}
+.banner .box ul li{
+    float: left;
+    width: 1200px;
+    height: 355px;
+}
+.banner .boxnav{
+    position: absolute;
+    margin-left: 50%;
+    left: -37px;
+    bottom: 10px;
+}
+.banner .boxnav li{
+    float: left;
+    margin: 0 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.4);
+    text-indent: 10000px;
+    overflow: hidden;
+}
+.banner .boxnav .navOn{
+    width: 8px;
+    height: 8px;
+    background: rgba(0,0,0,0.1);
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+.banner .zuo,.you{
+    width: 30px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+.banner .you{
+    right: auto;
+    left: 30px;
+}
+
+.banner1{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner1 .banner1_top{
+    height: 114px;
+    padding: 30px 0 40px 0;
+    border-bottom: 2px #eeeeee solid;
+}
+.banner1 .banner1_top ul{
+    overflow: hidden;
+}
+.banner1 .banner1_top ul li{
+    float: left;
+    width: 200px;
+}
+.banner1 .banner1_top ul li img{
+    width: 104px;
+    height: 78px;
+    margin: 0 48px;
+}
+.banner1 .banner1_top ul li p{
+    padding-top: 16px;
+    text-align: center;
+}
+.banner1 .banner1_top ul li p a{
+    color: #383838;
+}
+.banner1 .banner1_bottom{
+    height: 82px;
+    padding: 40px 0 60px 0;
+    text-align: center;
+}
+.banner1 .banner1_bottom div{
+    width: 520px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner1 .banner1_bottom div a{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 0 30px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ef1e00;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.banner1 .banner1_bottom p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.banner1 .banner1_bottom p a{
+    color: red;
+    text-decoration: underline;
+}
+/*横幅广告banner*/
+
+/*主体main*/
+.main{
+
+}
+.main .main_top{
+    background-color: #f4f4f4;
+}
+.main_top_inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main_top_inner .main1 .shang{
+    background: url("../images2/main1_top_bg.png") no-repeat center bottom;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+.main_top_inner .main1 .xia{
+    height: 60px;
+    margin: 30px 0;
+    background-color: white;
+}
+.main_top_inner .main1 .xia ul{
+    overflow: hidden;
+    padding-left: 40px;
+}
+.main_top_inner .main1 .xia ul li{
+    float: left;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main_top_inner .main2{
+    overflow: hidden;
+}
+.main_top_inner .main2 .wupin{
+    width: 228px;
+    height: 340px;
+    background-color: white;
+    border: 1px solid white;
+    margin-right: 12px;
+    float: left;
+    margin-bottom: 20px;
+}
+.main_top_inner .main2 .wupin img{
+    padding: 15px 24px 5px;
+}
+.main_top_inner .main2 .wupin .txt{
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.main_top_inner .main2 .wupin .junjia{
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+}
+.main_top_inner .main2 .wupin .junjia p{
+    float: left;
+    padding-left: 16px;
+    font-size: 12px;
+}
+.main_top_inner .main2 .wupin .junjia .span1{
+    float: right;
+    padding-right: 16px;
+}
+.main_top_inner .main2 .wupin .junjia .span1 a{
+    text-decoration: line-through;
+    color: #d2d2d2;
+}
+.main_top_inner .main2 .wupin .junjia .span2 a{
+    font-size: 12px;
+    color: red;
+    text-decoration: none;
+}
+.main_top_inner .main2 .wupin .junjia .span2 a .span3{
+    font-size: 20px;
+}
+.main_top_inner .main2 .wupin .huanxin{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-top: 1px solid #efefef;
+}
+.main_top_inner .main2 .wupin .huanxin span{
+    font-size: 12px;
+    color: red;
+}
+.main_top_inner .main2 .texiao{
+    border: 1px solid red;
+}
+.main_top_inner .main2 .texiao .huanxin{
+    border-top: 1px solid red;
+    background-color: red;
+}
+.main_top_inner .main2 .texiao .huanxin span{
+    color: white;
+}
+
+.main .main_bottom{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main .main_bottom .jieshao{
+    height: 64px;
+    padding: 35px 0;
+    text-align: center;
+}
+.main .main_bottom .jieshao h2{
+    font-size: 22px;
+}
+.main .main_bottom .jieshao p{
+    font-size: 12px;
+    color: #999999;
+    background: url("../images2/main_jieshao_bg.png") no-repeat 0 20px;
+    padding: 20px 0 0 20px;
+    width: 640px;
+    margin: 0 auto;
+}
+.main .main_bottom .title{
+    height: 30px;
+    background: url("../images2/main_title_bg.png") no-repeat;
+}
+.main .main_bottom .title p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 28px;
+}
+.main .main_bottom .liucheng{
+    height: 230px;
+    padding-bottom: 7px;
+}
+.main .main_bottom .liucheng ul{
+    overflow: hidden;
+}
+.main .main_bottom .liucheng ul li{
+    float: left;
+    width: 208px;
+    height: 205px;
+    padding-top: 25px;
+}
+.main .main_bottom .liucheng .pic{
+    height: 74px;
+    text-align: center;
+}
+.main .main_bottom .liucheng .pic img{
+    width: 70px;
+    height: 70px;
+}
+.main .main_bottom .liucheng .num{
+    height: 32px;
+    margin-top: 13px;
+    color: #9f9f9f;
+    text-align: center;
+    line-height: 32px;
+}
+.main .main_bottom .liucheng .txt{
+    margin-top: 10px;
+    text-align: center;
+}
+.main .main_bottom .liucheng .txt p{
+    height: 30px;
+    line-height: 30px;
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.main .main_bottom .liucheng .txt p:hover{
+    color: red;
+}
+.main .main_bottom .liucheng .jiantou{
+    width: 40px;
+    float: left;
+}
+.main .main_bottom .liucheng .jiantou img{
+    margin-top: 55px;
+}
+.main .main_bottom .baozhang ul{
+    overflow: hidden;
+    width: 992px;
+    margin: 0 auto;
+}
+.main .main_bottom .baozhang ul li{
+    float: left;
+    width: 248px;
+    height: 248px;
+    padding-top: 18px;
+}
+.main .main_bottom .baozhang ul li .pic{
+    height: 104px;
+    text-align: center;
+}
+.main .main_bottom .baozhang ul li .pic img{
+    width: 100px;
+    height: 100px;
+}
+.main .main_bottom .baozhang ul li .txt{
+    height: 48px;
+    margin-top: 17px;
+    text-align: center;
+}
+.main .main_bottom .baozhang ul li .txt p{
+    line-height: 22px;
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.main .main_bottom .baozhang ul li .txt p:hover{
+    color: red;
+}
+.main .main_bottom .changjian{
+    margin: 50px;
+    margin-top: 0;
+}
+.main .main_bottom .changjian .wenti .wen{
+    padding: 25px 10px 5px;
+}
+.main .main_bottom .changjian .wenti .wen p span{
+    font-size: 22px;
+}
+.main .main_bottom .changjian .wenti .da{
+    overflow: hidden;
+    color: #9f9f9f;
+    padding-left: 10px;
+}
+.main .main_bottom .changjian .wenti .da .left{
+    float: left;
+}
+.main .main_bottom .changjian .wenti .da .left p{
+    font-size: 22px;
+}
+.main .main_bottom .changjian .wenti .da .right{
+    float: left;
+}
+.main .main_bottom .changjian .wenti .da .right p{
+    width: 955px;
+    line-height: 22px;
+}
+/*主体main*/

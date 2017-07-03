@@ -1,0 +1,193 @@
+/*页面初始化*/
+body,div,p,ul,h2,h4{padding: 0;margin: 0;font-size: 14px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+/*页面初始化*/
+
+/*头部header*/
+.header{
+    width: 100%;
+    border-bottom: 2px solid #333438;
+}
+
+/*头部上半部分*/
+.header .header_top{
+    height: 30px;
+    background-color: #f7f7f7;
+}
+.header_top .menu{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header_top .menu>li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 22px;
+    position: relative;
+}
+.header_top .menu li a{
+    color: #949494;
+    font-size: 12px;
+}
+.header_top .menu>li .submenu{
+    position: absolute;
+    top: 1px;
+    left: 0;
+    border: 1px #aaaaaa solid;
+    background-color: white;
+    padding: 0 9px;
+    display: none;
+}
+.header_top .menu>li .submenu a{
+    color: black;
+}
+.header_top .menu>li .submenu a:hover{
+    color: brown;
+}
+.header_top .menu>li .pic{
+    overflow: hidden;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    padding: 20px 20px 10px 15px;
+    width: 254px;
+    border: 1px solid #aaaaaa;
+    display: none;
+    background-color: white;
+    z-index: 666;
+}
+.header_top .menu>li .pic li{
+    float: left;
+}
+.header_top .menu>li .pic p{
+    text-align: center;
+}
+/*头部上半部分*/
+
+/*头部中间部分*/
+.header_center{
+    width: 1200px;
+    margin: 0 auto 25px auto;
+}
+.header_center .guanggao{
+    height: 34px;
+    overflow: hidden;
+}
+.header_center .guanggao span{
+    display: block;
+    width: 36px;
+    height: 20px;
+    background-color: #f7db32;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin: 7px 0;
+    font-size: 12px;
+    border-radius: 3px;
+    float: right;
+}
+.header_center .logo{
+    float: left;
+    margin-right: 45px;
+}
+.header_center .chaoji{
+    padding-top: 18px;
+    float: left;
+    position: relative;
+}
+.header_center .chaoji a{
+    color: #656565;
+    font-weight: bold;
+}
+.header_center .chaoji .dianshi{
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    display: none;
+}
+.header_center .chaoji .dianshi li{
+    width: 80px;
+    height: 30px;
+    color: #656565;
+    border: 1px solid #656565;
+    text-align: center;
+    line-height: 30px;
+}
+.header_center .txt{
+    float: right;
+    width: 604px;
+    height: 40px;
+}
+.header_center .txt .sousuo{
+    border: 2px solid #cc0001;
+    width: 500px;
+    height: 36px;
+    float: left;
+}
+.header_center .txt .sousuo .input1{
+    width: 496px;
+    height: 30px;
+}
+.header_center .txt .input2{
+    background-color: #cc0001;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header_center .txt img{
+    vertical-align: -16px;
+}
+/*头部中间部分*/
+
+/*头部下半部分*/
+.header_bottom{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header_bottom .shangcheng{
+    width: 220px;
+    height: 32px;
+    background-color: #333333;
+    text-align: center;
+    line-height: 32px;
+    float: left;
+}
+.header_bottom .shangcheng a{
+    color: #f3f3f3;
+    font-weight: bold;
+}
+.header_bottom .huiyuan{
+    float: left;
+    margin-top: 12px;
+}
+.header_bottom .huiyuan a{
+    margin-left: 43px;
+    color: #303030;
+    font-weight: bold;
+}
+.header_bottom .biyibi{
+    float: right;
+    margin-top: 11px;
+}
+.header_bottom .biyibi a{
+    margin-left: 26px;
+    color: #656565;
+    font-size: 12px;
+}
+.header_bottom .huiyuan a:hover{
+    color: red;
+}
+.header_bottom .biyibi a:hover{
+    color: red;
+}
+/*头部下半部分*/
+
+/*头部header*/

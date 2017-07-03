@@ -1,0 +1,92 @@
+/*“≥√Ê≥ı ºªØ*/
+body,div,p,ul,h2,h4{padding: 0;margin: 0;font-size: 14px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+.clear{
+    clear: both;
+}
+/*“≥√Ê≥ı ºªØ*/
+
+/*≤‡±ﬂ¿∏*/
+.cebianlan{
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+}
+.cebianlan .cb_top{
+    width: 35px;
+    height: 239px;
+    background: url("../images/cebianlan_bg.png") no-repeat;
+}
+.cebianlan .cb_top .tubiao{
+    padding: 16px 0 17px 0;
+    height: 205px;
+}
+.cebianlan .cb_top .tubiao li{
+    position: relative;
+}
+.cebianlan .cb_top .tubiao li a{
+    display: block;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    border-radius: 16px;
+}
+.cebianlan .cb_top .tubiao li .xuanfu{
+    border: 1px solid #aaaaaa;
+}
+.cebianlan .cb_top .tubiao li .txt{
+    position: absolute;
+    left: -66px;
+    top: 0;
+    background-color: #efefef;
+    padding: 8px;
+    border-radius: 3px;
+    text-align: right;
+    display: none;
+}
+.cebianlan .cb_top .tubiao li .txt ul{
+    overflow: hidden;
+    width: 100%;
+}
+.cebianlan .cb_top .tubiao li .txt ul li{
+    overflow: hidden;
+    float: left;
+    margin-right: 5px;
+}
+.cebianlan .cb_top .tubiao li .txt .sanjiao{
+    color: #efefef;
+    position: absolute;
+    right: -7px;
+    top: 7px;
+}
+
+.cebianlan .cb_bottom a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: #efefef;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 35px;
+}
+.cebianlan .cb_bottom .txt{
+    position: absolute;
+    left: -80px;
+    top: 0;
+    background-color: #efefef;
+    padding: 8px;
+    border-radius: 3px;
+    display: none;
+}
+.cebianlan .cb_bottom .txt .sanjiao{
+    color: #efefef;
+    position: absolute;
+    right: -7px;
+    top: 7px;
+}
+/*≤‡±ﬂ¿∏*/
